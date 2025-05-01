@@ -1,0 +1,224 @@
+body {
+  font-family: 'Consolas 10pt', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #b3e5fc, #e3f2fd); /* Soft pastel blue gradient */
+}
+
+/* Header and Navigation */
+.custom-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #800080;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1em;
+  color: #333;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #007bff;
+  color: white !important;
+}
+
+/* Intro Section */
+.intro-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #cce7ff, #e3f2fd); /* Adjusted pastel blue gradient */
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.intro-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.intro-description {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.project-btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px 16px;
+  background-color: #007bff;
+  color: white !important;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Prevent jQuery Mobile from overriding button styles */
+.project-btn.ui-btn {
+  background: none !important;
+  border: none !important;
+}
+
+
+/* Footer */
+.custom-footer p {
+  text-align: center;
+  font-size: 0.85em;
+  color: #999;
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* Social Sidebar */
+.social-sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.social-icon {
+  display: block;
+  background-color: #4b4b4b;
+  color: white;
+  padding: 10px 12px;
+  margin: 4px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+  border-radius: 0 5px 5px 0;
+  transition: background 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #2a2a2a;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.team-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 250px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.photo-container {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.team-photo {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 260px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #1d3557;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #457b9d;
+}
+
+
